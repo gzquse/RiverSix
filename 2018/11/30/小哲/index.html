@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="theme-color" content="#222">
+
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet"
+                                                                                  type="text/css" />
+
+  <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet"
+                                                                                  type="text/css" />
+
+  <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+  <meta name="keywords" content="front_end,back_end,crawler," />
+
+  <meta name="description" content="G.martin first   summary">
+  <meta name="keywords" content="front_end,back_end,crawler">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="小哲">
+  <meta property="og:url" content="https://github.com/gzquse/2018/11/30/小哲/index.html">
+  <meta property="og:site_name" content="Martin">
+  <meta property="og:description" content="G.martin first   summary">
+  <meta property="og:locale" content="zh-Hans">
+  <meta property="og:image" content="https://github.com/gzquse/2018/11/themes/hexo-theme-next/source/images/e.jpg">
+  <meta property="og:updated_time" content="2018-11-30T05:17:20.230Z">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="小哲">
+  <meta name="twitter:description" content="G.martin first   summary">
+  <meta name="twitter:image" content="https://github.com/gzquse/2018/11/themes/hexo-theme-next/source/images/e.jpg">
+
+  <script type="text/javascript" id="hexo.configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {
+      root: '/',
+      scheme: 'Gemini',
+      version: '5.1.4',
+      sidebar: {
+        "position": "left",
+        "display": "post",
+        "offset": 12,
+        "b2t": false,
+        "scrollpercent": false,
+        "onmobile": false
+      },
+      fancybox: true,
+      tabs: true,
+      motion: {
+        "enable": true,
+        "async": false,
+        "transition": {
+          "post_block": "fadeIn",
+          "post_header": "slideDownIn",
+          "post_body": "slideDownIn",
+          "coll_header": "slideLeftIn",
+          "sidebar": "slideUpIn"
+        }
+      },
+      duoshuo: {
+        userId: '0',
+        author: '博主'
+      },
+      algolia: {
+        applicationID: '',
+        apiKey: '',
+        indexName: '',
+        hits: {
+          "per_page": 10
+        },
+        labels: {
+          "input_placeholder": "Search for Posts",
+          "hits_empty": "We didn't find any results for the search: ${query}",
+          "hits_stats": "${hits} results found in ${time} ms"
+        }
+      }
+    };
+
+  </script>
+
+  <link rel="canonical" href="https://github.com/gzquse/2018/11/30/小哲/" />
+
+  <title>小哲 | Martin</title>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    <a href="https://github.com" class="github-corner" aria-label="View source on GitHub"><svg
+                                                                                      width="80"
+                                                                                      height="80"
+                                                                                      viewBox="0 0 250 250"
+                                                                                      style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+                                                                                      aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                                                                                        fill="currentColor"
+                                                                                        style="transform-origin: 130px 106px;"
+                                                                                        class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                                                                                        fill="currentColor"
+                                                                                        class="octo-body"></path>
+      </svg></a>
+    <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner">
+        <div class="site-brand-wrapper">
+          <div class="site-meta ">
+
+            <div class="custom-logo-site-title">
+              <a href="/" class="brand" rel="start">
+                <span class="logo-line-before"><i></i></span>
+                <span class="site-title">Martin</span>
+                <span class="logo-line-after"><i></i></span>
+              </a>
+            </div>
+
+            <p class="site-subtitle"></p>
+
+          </div>
+
+          <div class="site-nav-toggle">
+            <button>
+              <span class="btn-bar"></span>
+              <span class="btn-bar"></span>
+              <span class="btn-bar"></span>
+            </button>
+          </div>
+        </div>
+
+        <nav class="site-nav">
+
+          <ul id="menu" class="menu">
+
+            <li class="menu-item menu-item-home">
+              <a href="/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+
+                首页
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-about">
+              <a href="/about/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+
+                关于
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-tags">
+              <a href="/tags/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+
+                标签
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-categories">
+              <a href="/categories/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+
+                分类
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-archives">
+              <a href="/archives/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+
+                归档
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-schedule">
+              <a href="/schedule/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+
+                日程表
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-sitemap">
+              <a href="/sitemap.xml" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+
+                站点地图
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-commonweal">
+              <a href="/404/" rel="section">
+
+                <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+
+                公益404
+              </a>
+            </li>
+
+            <li class="menu-item menu-item-search">
+
+              <a href="javascript:;" class="popup-trigger">
+
+                <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+
+                搜索
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="site-search">
+
+            <div class="popup search-popup local-search-popup">
+              <div class="local-search-header clearfix">
+                <span class="search-icon">
+                  <i class="fa fa-search"></i>
+                </span>
+                <span class="popup-btn-close">
+                  <i class="fa fa-times-circle"></i>
+                </span>
+                <div class="local-search-input-wrapper">
+                  <input autocomplete="off" placeholder="搜索..." spellcheck="false"
+                                                                                                  type="text"
+                                                                                                  id="local-search-input">
+                </div>
+              </div>
+              <div id="local-search-result"></div>
+            </div>
+
+          </div>
+
+        </nav>
+
+      </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+
+            <div id="posts" class="posts-expand">
+
+              <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+
+                <div class="post-block">
+                  <link itemprop="mainEntityOfPage" href="https://github.com/gzquse/2018/11/30/小哲/">
+
+                  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <meta itemprop="name" content="Martin">
+                    <meta itemprop="description" content="">
+                    <meta itemprop="image" content="/images/cute.png">
+                  </span>
+
+                  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                    <meta itemprop="name" content="Martin">
+                  </span>
+
+                  <header class="post-header">
+
+                    <h1 class="post-title" itemprop="name headline">小哲</h1>
+
+                    <div class="post-meta">
+                      <span class="post-time">
+
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-calendar-o"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">发表于</span>
+
+                        <time title="创建于" itemprop="dateCreated datePublished"
+                                                                                                        datetime="2018-11-30T00:48:28+08:00">
+                          2018-11-30
+                        </time>
+
+                      </span>
+
+                      <span class="post-category">
+
+                        <span class="post-meta-divider">|</span>
+
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-folder-o"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">分类于</span>
+
+                        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                          <a href="/categories/iotu-summary/" itemprop="url"
+                                                                                                          rel="index">
+                            <span itemprop="name">-iotu summary</span>
+                          </a>
+                        </span>
+
+                      </span>
+
+                      <span class="post-meta-divider">|</span>
+                      <span class="page-pv">本文总阅读数<i class="fa fa-file-o"></i>
+                        <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
+                      </span>
+
+                    </div>
+                  </header>
+
+                  <div class="post-body" itemprop="articleBody">
+
+                    <h1 id="G-martin"><a href="#G-martin" class="headerlink"
+                                                                                                      title="G.martin"></a>G.martin</h1>
+                    <h2 id="first-summary"><a href="#first-summary" class="headerlink"
+                                                                                                      title="first summary"></a>first
+                      summary</h2><a id="more"></a>
+                    <ul>
+                      <li><strong>1.python</strong><br> a.crawler</li>
+                      <li><strong>2.java</strong><br> a. servlet<br> b. spring
+                        boot
+                        <pre><code>activative web 
+to make a webserver
+</code></pre>
+                      </li>
+                      <li><strong>3.js</strong>
+                        <pre><code>-blog a
+</code></pre><strong>the data of them</strong> /<em>please click the links</em></li>
+                    </ul>
+                    <hr>
+                    <p><a href="http://tomcat.apache.org/" target="_blank" rel="noopener">tomcat</a><br><a
+                                                                                                      href="https://baike.baidu.com/item/servlet/477555?fr=aladdin"
+                                                                                                      target="_blank"
+                                                                                                      rel="noopener">servlet</a><br><a
+                                                                                                      href="https://spring.io/"
+                                                                                                      target="_blank"
+                                                                                                      rel="noopener">spring</a></p>
+                    <hr>
+                    <p>##This is the source code of the website<br><a href="C:\Users\53585\Desktop\martin\martin.html"
+                                                                                                      target="_blank"
+                                                                                                      rel="noopener">Martin.html</a><br>
+                      <figure class="highlight plain">
+                        <table>
+                          <tr>
+                            <td class="gutter">
+                              <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br></pre>
+                            </td>
+                            <td class="code">
+                              <pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line"></span><br><span class="line">  &lt;head&gt;</span><br><span class="line"></span><br><span class="line">    &lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;</span><br><span class="line"></span><br><span class="line">    &lt;title&gt;自我介绍&lt;/title&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Bootstrap core CSS --&gt;</span><br><span class="line">    &lt;link href=&quot;vendor/bootstrap/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Custom fonts for this template --&gt;</span><br><span class="line">    &lt;link href=&quot;vendor/font-awesome/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</span><br><span class="line">    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</span><br><span class="line">    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Plugin CSS --&gt;</span><br><span class="line">    &lt;link href=&quot;vendor/magnific-popup/magnific-popup.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Custom styles for this template --&gt;</span><br><span class="line">    &lt;link href=&quot;css/freelancer.css&quot; rel=&quot;stylesheet&quot;&gt;</span><br><span class="line"></span><br><span class="line">  &lt;/head&gt;</span><br><span class="line"></span><br><span class="line">  &lt;body id=&quot;page-top&quot;&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Navigation --&gt;</span><br><span class="line">    &lt;nav class=&quot;navbar navbar-expand-lg bg-secondary fixed-top text-uppercase&quot; id=&quot;mainNav&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;navbar-brand js-scroll-trigger&quot; href=&quot;#page-top&quot;&gt;自我介绍&lt;/a&gt;</span><br><span class="line">        &lt;button class=&quot;navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarResponsive&quot; aria-controls=&quot;navbarResponsive&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;</span><br><span class="line">          Menu</span><br><span class="line">          &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/button&gt;</span><br><span class="line">        &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarResponsive&quot;&gt;</span><br><span class="line">          &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;</span><br><span class="line">            &lt;li class=&quot;nav-item mx-0 mx-lg-1&quot;&gt;</span><br><span class="line">              &lt;a class=&quot;nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger&quot; href=&quot;#portfolio&quot;&gt;作品&lt;/a&gt;</span><br><span class="line">            &lt;/li&gt;</span><br><span class="line">            &lt;li class=&quot;nav-item mx-0 mx-lg-1&quot;&gt;</span><br><span class="line">              &lt;a class=&quot;nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger&quot; href=&quot;#about&quot;&gt;关于ME&lt;/a&gt;</span><br><span class="line">            &lt;/li&gt;</span><br><span class="line">            &lt;li class=&quot;nav-item mx-0 mx-lg-1&quot;&gt;</span><br><span class="line">              &lt;a class=&quot;nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger&quot; href=&quot;#contact&quot;&gt;联系ME&lt;/a&gt;</span><br><span class="line">            &lt;/li&gt;</span><br><span class="line">            &lt;li class=&quot;nav-item mx-0 mx-lg-1&quot;&gt;</span><br><span class="line">              &lt;a class=&quot;nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger&quot; href=&quot;#&quot;&gt;博客&lt;/a&gt;</span><br><span class="line">            &lt;/li&gt;            </span><br><span class="line">          &lt;/ul&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/nav&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Header --&gt;</span><br><span class="line">    &lt;header class=&quot;masthead bg-primary text-white text-center&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;img class=&quot;img-fluid mb-5 d-block mx-auto rounded-circle&quot; src=&quot;img/Martin.jpeg&quot; alt=&quot;&quot; width = &quot;250px&quot;&gt;</span><br><span class="line">        &lt;h1 class=&quot;text-uppercase mb-0&quot;&gt;Martin&lt;/h1&gt;</span><br><span class="line">        &lt;hr class=&quot;star-light&quot;&gt;</span><br><span class="line">        &lt;h2 class=&quot;font-weight-light mb-0&quot;&gt;茶学 - 咖啡爱好者 - 吃货 - 旅行&lt;/h2&gt;</span><br><span class="line">                &lt;div class=&quot;text-center mt-4&quot;&gt;</span><br><span class="line">          &lt;a class=&quot;btn btn-xl btn-outline-light&quot; href=&quot;https://www.alipay.com&quot; target=&quot;_blank&quot;&gt;</span><br><span class="line">            &lt;i class=&quot;fa fa-download mr-2&quot;&gt;&lt;/i&gt;</span><br><span class="line">            点我，投食!</span><br><span class="line">          &lt;/a&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/header&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Grid Section --&gt;</span><br><span class="line">    &lt;section class=&quot;portfolio&quot; id=&quot;portfolio&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;h2 class=&quot;text-center text-uppercase text-secondary mb-0&quot;&gt;作品&lt;/h2&gt;</span><br><span class="line">        &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">        &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-6 col-lg-4&quot;&gt;</span><br><span class="line">            &lt;a class=&quot;portfolio-item d-block mx-auto&quot; href=&quot;#portfolio-modal-1&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;portfolio-item-caption d-flex position-absolute h-100 w-100&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;portfolio-item-caption-content my-auto w-100 text-center text-white&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid&quot; src=&quot;img/portfolio/cabin.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-6 col-lg-4&quot;&gt;</span><br><span class="line">            &lt;a class=&quot;portfolio-item d-block mx-auto&quot; href=&quot;#portfolio-modal-2&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;portfolio-item-caption d-flex position-absolute h-100 w-100&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;portfolio-item-caption-content my-auto w-100 text-center text-white&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid&quot; src=&quot;img/portfolio/cake.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-6 col-lg-4&quot;&gt;</span><br><span class="line">            &lt;a class=&quot;portfolio-item d-block mx-auto&quot; href=&quot;#portfolio-modal-3&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;portfolio-item-ca1ption d-flex position-absolute h-100 w-100&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;portfolio-item-caption-content my-auto w-100 text-center text-white&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid&quot; src=&quot;img/portfolio/circus.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-6 col-lg-4&quot;&gt;</span><br><span class="line">            &lt;a class=&quot;portfolio-item d-block mx-auto&quot; href=&quot;#portfolio-modal-4&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;portfolio-item-caption d-flex position-absolute h-100 w-100&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;portfolio-item-caption-content my-auto w-100 text-center text-white&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid&quot; src=&quot;img/portfolio/game.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-6 col-lg-4&quot;&gt;</span><br><span class="line">            &lt;a class=&quot;portfolio-item d-block mx-auto&quot; href=&quot;#portfolio-modal-5&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;portfolio-item-caption d-flex position-absolute h-100 w-100&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;portfolio-item-caption-content my-auto w-100 text-center text-white&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid&quot; src=&quot;img/portfolio/safe.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-6 col-lg-4&quot;&gt;</span><br><span class="line">            &lt;a class=&quot;portfolio-item d-block mx-auto&quot; href=&quot;#portfolio-modal-6&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;portfolio-item-caption d-flex position-absolute h-100 w-100&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;portfolio-item-caption-content my-auto w-100 text-center text-white&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-search-plus fa-3x&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid&quot; src=&quot;img/portfolio/submarine.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/section&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- About Section --&gt;</span><br><span class="line">    &lt;section class=&quot;bg-primary text-white mb-0&quot; id=&quot;about&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;h2 class=&quot;text-center text-uppercase text-white&quot;&gt;关于&lt;/h2&gt;</span><br><span class="line">        &lt;hr class=&quot;star-light mb-5&quot;&gt;</span><br><span class="line">        &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;col-lg-4 ml-auto&quot;&gt;</span><br><span class="line">            &lt;p class=&quot;lead&quot;&gt;This is my page&lt;/p&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-lg-4 mr-auto&quot;&gt;</span><br><span class="line">            &lt;p class=&quot;lead&quot;&gt;ps:Never forget what you want！&lt;/p&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;text-center mt-4&quot;&gt;</span><br><span class="line">          &lt;a class=&quot;btn btn-xl btn-outline-light&quot; href=&quot;#&quot;&gt;</span><br><span class="line">            &lt;i class=&quot;fa fa-download mr-2&quot;&gt;&lt;/i&gt;</span><br><span class="line">            你点我试试？</span><br><span class="line">          &lt;/a&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/section&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Contact Section --&gt;</span><br><span class="line">    &lt;section id=&quot;contact&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;h2 class=&quot;text-center text-uppercase text-secondary mb-0&quot;&gt;来联系我吧&lt;/h2&gt;</span><br><span class="line">        &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">        &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">            &lt;!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. --&gt;</span><br><span class="line">            &lt;!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. --&gt;</span><br><span class="line">            &lt;form name=&quot;sentMessage&quot; id=&quot;contactForm&quot; novalidate=&quot;novalidate&quot;&gt;</span><br><span class="line">              &lt;div class=&quot;control-group&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;form-group floating-label-form-group controls mb-0 pb-2&quot;&gt;</span><br><span class="line">                  &lt;label&gt;猿类识别号&lt;/label&gt;</span><br><span class="line">                  &lt;input class=&quot;form-control&quot; id=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;猿类识别号&quot; required=&quot;required&quot; data-validation-required-message=&quot;Please enter your name.&quot;&gt;</span><br><span class="line">                  &lt;p class=&quot;help-block text-danger&quot;&gt;&lt;/p&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;div class=&quot;control-group&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;form-group floating-label-form-group controls mb-0 pb-2&quot;&gt;</span><br><span class="line">                  &lt;label&gt;邮箱地址&lt;/label&gt;</span><br><span class="line">                  &lt;input class=&quot;form-control&quot; id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;邮箱地址&quot; required=&quot;required&quot; data-validation-required-message=&quot;Please enter your email address.&quot;&gt;</span><br><span class="line">                  &lt;p class=&quot;help-block text-danger&quot;&gt;&lt;/p&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;div class=&quot;control-group&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;form-group floating-label-form-group controls mb-0 pb-2&quot;&gt;</span><br><span class="line">                  &lt;label&gt;电话号码&lt;/label&gt;</span><br><span class="line">                  &lt;input class=&quot;form-control&quot; id=&quot;phone&quot; type=&quot;tel&quot; placeholder=&quot;电话号码&quot; required=&quot;required&quot; data-validation-required-message=&quot;Please enter your phone number.&quot;&gt;</span><br><span class="line">                  &lt;p class=&quot;help-block text-danger&quot;&gt;&lt;/p&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;div class=&quot;control-group&quot;&gt;</span><br><span class="line">                &lt;div class=&quot;form-group floating-label-form-group controls mb-0 pb-2&quot;&gt;</span><br><span class="line">                  &lt;label&gt;留言密电码&lt;/label&gt;</span><br><span class="line">                  &lt;textarea class=&quot;form-control&quot; id=&quot;message&quot; rows=&quot;5&quot; placeholder=&quot;留言密电码&quot; required=&quot;required&quot; data-validation-required-message=&quot;Please enter a message.&quot;&gt;&lt;/textarea&gt;</span><br><span class="line">                  &lt;p class=&quot;help-block text-danger&quot;&gt;&lt;/p&gt;</span><br><span class="line">                &lt;/div&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">              &lt;br&gt;</span><br><span class="line">              &lt;div id=&quot;success&quot;&gt;&lt;/div&gt;</span><br><span class="line">              &lt;div class=&quot;form-group&quot;&gt;</span><br><span class="line">                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary btn-xl&quot; id=&quot;sendMessageButton&quot;&gt;发送&lt;/button&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">            &lt;/form&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/section&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Footer --&gt;</span><br><span class="line">    &lt;footer class=&quot;footer text-center&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-4 mb-5 mb-lg-0&quot;&gt;</span><br><span class="line">            &lt;h4 class=&quot;text-uppercase mb-4&quot;&gt;坐标&lt;/h4&gt;</span><br><span class="line">            &lt;p class=&quot;lead mb-0&quot;&gt;微信公众号</span><br><span class="line">              &lt;br&gt;iotu666&lt;/p&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-4 mb-5 mb-lg-0&quot;&gt;</span><br><span class="line">            &lt;h4 class=&quot;text-uppercase mb-4&quot;&gt;出没于&lt;/h4&gt;</span><br><span class="line">            &lt;ul class=&quot;list-inline mb-0&quot;&gt;</span><br><span class="line">              &lt;li class=&quot;list-inline-item&quot;&gt;</span><br><span class="line">                &lt;a class=&quot;btn btn-outline-light btn-social text-center rounded-circle&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-fw fa-facebook&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/li&gt;</span><br><span class="line">              &lt;li class=&quot;list-inline-item&quot;&gt;</span><br><span class="line">                &lt;a class=&quot;btn btn-outline-light btn-social text-center rounded-circle&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-fw fa-google-plus&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/li&gt;</span><br><span class="line">              &lt;li class=&quot;list-inline-item&quot;&gt;</span><br><span class="line">                &lt;a class=&quot;btn btn-outline-light btn-social text-center rounded-circle&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-fw fa-twitter&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/li&gt;</span><br><span class="line">              &lt;li class=&quot;list-inline-item&quot;&gt;</span><br><span class="line">                &lt;a class=&quot;btn btn-outline-light btn-social text-center rounded-circle&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-fw fa-linkedin&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/li&gt;</span><br><span class="line">              &lt;li class=&quot;list-inline-item&quot;&gt;</span><br><span class="line">                &lt;a class=&quot;btn btn-outline-light btn-social text-center rounded-circle&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                  &lt;i class=&quot;fa fa-fw fa-dribbble&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/li&gt;</span><br><span class="line">            &lt;/ul&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">          &lt;div class=&quot;col-md-4&quot;&gt;</span><br><span class="line">            &lt;h4 class=&quot;text-uppercase mb-4&quot;&gt;Martin.net&lt;/h4&gt;</span><br><span class="line">            &lt;p class=&quot;lead mb-0&quot;&gt;低调做人，高调做事儿~&lt;br&gt;</span><br><span class="line">              &lt;/p&gt;&lt;a href=&quot;&quot;&gt;MARTIN_net&lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/footer&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div class=&quot;copyright py-4 text-center text-white&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">        &lt;small&gt;Copyright &amp;copy; 我的网站～ 2018&lt;/small&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) --&gt;</span><br><span class="line">    &lt;div class=&quot;scroll-to-top d-lg-none position-fixed &quot;&gt;</span><br><span class="line">      &lt;a class=&quot;js-scroll-trigger d-block text-center text-white rounded&quot; href=&quot;#page-top&quot;&gt;</span><br><span class="line">        &lt;i class=&quot;fa fa-chevron-up&quot;&gt;&lt;/i&gt;</span><br><span class="line">      &lt;/a&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modals --&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modal 1 --&gt;</span><br><span class="line">    &lt;div class=&quot;portfolio-modal mfp-hide&quot; id=&quot;portfolio-modal-1&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;portfolio-modal-dialog bg-white&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;close-button d-none d-md-block portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">          &lt;i class=&quot;fa fa-3x fa-times&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;container text-center&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">              &lt;h2 class=&quot;text-secondary text-uppercase mb-0&quot;&gt;Project Name&lt;/h2&gt;</span><br><span class="line">              &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid mb-5&quot; src=&quot;img/portfolio/cabin.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">              &lt;p class=&quot;mb-5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.&lt;/p&gt;</span><br><span class="line">              &lt;a class=&quot;btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                &lt;i class=&quot;fa fa-close&quot;&gt;&lt;/i&gt;</span><br><span class="line">                Close Project&lt;/a&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modal 2 --&gt;</span><br><span class="line">    &lt;div class=&quot;portfolio-modal mfp-hide&quot; id=&quot;portfolio-modal-2&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;portfolio-modal-dialog bg-white&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;close-button d-none d-md-block portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">          &lt;i class=&quot;fa fa-3x fa-times&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;container text-center&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">              &lt;h2 class=&quot;text-secondary text-uppercase mb-0&quot;&gt;Project Name&lt;/h2&gt;</span><br><span class="line">              &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid mb-5&quot; src=&quot;img/portfolio/cake.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">              &lt;p class=&quot;mb-5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.&lt;/p&gt;</span><br><span class="line">              &lt;a class=&quot;btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                &lt;i class=&quot;fa fa-close&quot;&gt;&lt;/i&gt;</span><br><span class="line">                Close Project&lt;/a&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modal 3 --&gt;</span><br><span class="line">    &lt;div class=&quot;portfolio-modal mfp-hide&quot; id=&quot;portfolio-modal-3&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;portfolio-modal-dialog bg-white&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;close-button d-none d-md-block portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">          &lt;i class=&quot;fa fa-3x fa-times&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;container text-center&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">              &lt;h2 class=&quot;text-secondary text-uppercase mb-0&quot;&gt;Project Name&lt;/h2&gt;</span><br><span class="line">              &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid mb-5&quot; src=&quot;img/portfolio/circus.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">              &lt;p class=&quot;mb-5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.&lt;/p&gt;</span><br><span class="line">              &lt;a class=&quot;btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                &lt;i class=&quot;fa fa-close&quot;&gt;&lt;/i&gt;</span><br><span class="line">                Close Project&lt;/a&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modal 4 --&gt;</span><br><span class="line">    &lt;div class=&quot;portfolio-modal mfp-hide&quot; id=&quot;portfolio-modal-4&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;portfolio-modal-dialog bg-white&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;close-button d-none d-md-block portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">          &lt;i class=&quot;fa fa-3x fa-times&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;container text-center&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">              &lt;h2 class=&quot;text-secondary text-uppercase mb-0&quot;&gt;Project Name&lt;/h2&gt;</span><br><span class="line">              &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid mb-5&quot; src=&quot;img/portfolio/game.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">              &lt;p class=&quot;mb-5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.&lt;/p&gt;</span><br><span class="line">              &lt;a class=&quot;btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                &lt;i class=&quot;fa fa-close&quot;&gt;&lt;/i&gt;</span><br><span class="line">                Close Project&lt;/a&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modal 5 --&gt;</span><br><span class="line">    &lt;div class=&quot;portfolio-modal mfp-hide&quot; id=&quot;portfolio-modal-5&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;portfolio-modal-dialog bg-white&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;close-button d-none d-md-block portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">          &lt;i class=&quot;fa fa-3x fa-times&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;container text-center&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">              &lt;h2 class=&quot;text-secondary text-uppercase mb-0&quot;&gt;Project Name&lt;/h2&gt;</span><br><span class="line">              &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid mb-5&quot; src=&quot;img/portfolio/safe.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">              &lt;p class=&quot;mb-5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.&lt;/p&gt;</span><br><span class="line">              &lt;a class=&quot;btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                &lt;i class=&quot;fa fa-close&quot;&gt;&lt;/i&gt;</span><br><span class="line">                Close Project&lt;/a&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Portfolio Modal 6 --&gt;</span><br><span class="line">    &lt;div class=&quot;portfolio-modal mfp-hide&quot; id=&quot;portfolio-modal-6&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;portfolio-modal-dialog bg-white&quot;&gt;</span><br><span class="line">        &lt;a class=&quot;close-button d-none d-md-block portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">          &lt;i class=&quot;fa fa-3x fa-times&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;container text-center&quot;&gt;</span><br><span class="line">          &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;col-lg-8 mx-auto&quot;&gt;</span><br><span class="line">              &lt;h2 class=&quot;text-secondary text-uppercase mb-0&quot;&gt;Project Name&lt;/h2&gt;</span><br><span class="line">              &lt;hr class=&quot;star-dark mb-5&quot;&gt;</span><br><span class="line">              &lt;img class=&quot;img-fluid mb-5&quot; src=&quot;img/portfolio/submarine.png&quot; alt=&quot;&quot;&gt;</span><br><span class="line">              &lt;p class=&quot;mb-5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.&lt;/p&gt;</span><br><span class="line">              &lt;a class=&quot;btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss&quot; href=&quot;#&quot;&gt;</span><br><span class="line">                &lt;i class=&quot;fa fa-close&quot;&gt;&lt;/i&gt;</span><br><span class="line">                Close Project&lt;/a&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Bootstrap core JavaScript --&gt;</span><br><span class="line">    &lt;script src=&quot;vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script src=&quot;vendor/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Plugin JavaScript --&gt;</span><br><span class="line">    &lt;script src=&quot;vendor/jquery-easing/jquery.easing.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script src=&quot;vendor/magnific-popup/jquery.magnific-popup.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Contact Form JavaScript --&gt;</span><br><span class="line">    &lt;script src=&quot;js/jqBootstrapValidation.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script src=&quot;js/contact_me.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- Custom scripts for this template --&gt;</span><br><span class="line">    &lt;script src=&quot;js/freelancer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">  &lt;/body&gt;</span><br><span class="line"></span><br><span class="line">&lt;/html&gt;</span><br></pre>
+                            </td>
+                          </tr>
+                        </table>
+                      </figure>
+                    </p>
+                    <p><img src="../../themes/hexo-theme-next/source/images/e.jpg"
+                                                                                                      alt="~~~"><br>{FINALLY
+                      :controlling yourself is controlling your enemy}</p>
+
+                  </div>
+
+                  <div>
+                    <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+                      <img id="wechat_subscriber_qcode" src="images/wechat-qcode.jpg"
+                                                                                                      alt="Martin wechat"
+                                                                                                      style="width: 200px; max-width: 100%;" />
+                      <div>ex. subscribe to my blog by scanning my public
+                        wechat account</div>
+                    </div>
+
+                  </div>
+
+                  <div>
+                    <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+                      <div>Donate comment here</div>
+                      <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+                        <span>打赏</span>
+                      </button>
+                      <div id="QR" style="display: none;">
+
+                        <div id="wechat" style="display: inline-block">
+                          <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Martin 微信支付" />
+                          <p>微信支付</p>
+                        </div>
+
+                        <div id="alipay" style="display: inline-block">
+                          <img id="alipay_qr" src="/images/alipay.jpg" alt="Martin 支付宝" />
+                          <p>支付宝</p>
+                        </div>
+
+                        <div id="bitcoin" style="display: inline-block">
+                          <img id="bitcoin_qr" src="/images/bitcoin.png" alt="Martin 比特币" />
+                          <p>比特币</p>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <footer class="post-footer">
+
+                    <div class="post-tags">
+
+                      <a href="/tags/front-end/" rel="tag"><i class="fas fa-hand-lizard"></i>
+                        front_end</a>
+
+                      <a href="/tags/back-end/" rel="tag"><i class="fas fa-hand-lizard"></i>
+                        back_end</a>
+
+                      <a href="/tags/crawler/" rel="tag"><i class="fas fa-hand-lizard"></i>
+                        crawler</a>
+
+                    </div>
+
+                    <div class="post-nav">
+                      <div class="post-nav-next post-nav-item">
+
+                        <a href="/2018/11/29/about-me/" rel="next" title="about_me">
+                          <i class="fa fa-chevron-left"></i> about_me
+                        </a>
+
+                      </div>
+
+                      <span class="post-nav-divider"></span>
+
+                      <div class="post-nav-prev post-nav-item">
+
+                      </div>
+                    </div>
+
+                  </footer>
+                </div>
+
+              </article>
+
+              <div class="post-spread">
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="sidebar-toggle">
+          <div class="sidebar-toggle-line-wrap">
+            <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+            <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+            <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+          </div>
+        </div>
+
+        <aside id="sidebar" class="sidebar">
+
+          <div class="sidebar-inner">
+
+            <ul class="sidebar-nav motion-element">
+              <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+                文章目录
+              </li>
+              <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+                站点概览
+              </li>
+            </ul>
+
+            <section class="site-overview-wrap sidebar-panel">
+              <div class="site-overview">
+                <div class="site-author motion-element" itemprop="author"
+                                                                                                itemscope
+                                                                                                itemtype="http://schema.org/Person">
+
+                  <img class="site-author-image" itemprop="image" src="/images/cute.png"
+                                                                                                  alt="Martin" />
+
+                  <p class="site-author-name" itemprop="name">Martin</p>
+                  <p class="site-description motion-element" itemprop="description"></p>
+                </div>
+
+                <nav class="site-state motion-element">
+
+                  <div class="site-state-item site-state-posts">
+
+                    <a href="/archives/">
+
+                      <span class="site-state-item-count">4</span>
+                      <span class="site-state-item-name">日志</span>
+                    </a>
+                  </div>
+
+                  <div class="site-state-item site-state-categories">
+                    <a href="/categories/index.html">
+                      <span class="site-state-item-count">1</span>
+                      <span class="site-state-item-name">分类</span>
+                    </a>
+                  </div>
+
+                  <div class="site-state-item site-state-tags">
+                    <a href="/tags/index.html">
+                      <span class="site-state-item-count">5</span>
+                      <span class="site-state-item-name">标签</span>
+                    </a>
+                  </div>
+
+                </nav>
+
+                <div class="links-of-author motion-element">
+
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/gzquse" target="_blank" title="GitHub">
+
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+
+                  <span class="links-of-author-item">
+                    <a href="535853415@qq.com" target="_blank" title="E-Mail">
+
+                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+
+                  <span class="links-of-author-item">
+                    <a href="https://plus.google.com/gzq" target="_blank" title="Google">
+
+                      <i class="fa fa-fw fa-google"></i>Google</a>
+                  </span>
+
+                </div>
+
+                <div class="links-of-blogroll motion-element links-of-blogroll-block">
+                  <div class="links-of-blogroll-title">
+                    <i class="fa  fa-fw fa-link"></i>
+                    Links
+                  </div>
+                  <ul class="links-of-blogroll-list">
+
+                    <li class="links-of-blogroll-item">
+                      <a href="http://martin.com/" title="Martin" target="_blank">Martin</a>
+                    </li>
+
+                    <li class="links-of-blogroll-item">
+                      <a href="https://user.qzone.qq.com/535853415" title="QQZone"
+                                                                                                      target="_blank">QQZone</a>
+                    </li>
+
+                  </ul>
+                </div>
+
+              </div>
+            </section>
+
+            <!--noindex-->
+            <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+              <div class="post-toc">
+
+                <div class="post-toc-content">
+                  <ol class="nav">
+                    <li class="nav-item nav-level-1"><a class="nav-link" href="#G-martin"><span
+                                                                                                        class="nav-number">1.</span>
+                        <span class="nav-text">G.martin</span></a>
+                      <ol class="nav-child">
+                        <li class="nav-item nav-level-2"><a class="nav-link"
+                                                                                                          href="#first-summary"><span
+                                                                                                            class="nav-number">1.1.</span>
+                            <span class="nav-text">first
+                              summary</span></a></li>
+                      </ol>
+                    </li>
+                  </ol>
+                </div>
+
+              </div>
+            </section>
+            <!--/noindex-->
+
+          </div>
+        </aside>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+          <span class="with-love">
+            <i class="fa fa-user"></i>
+          </span>
+          <span class="author" itemprop="copyrightHolder">Martin</span>
+
+        </div>
+
+        <div class="busuanzi-count">
+          <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+          <span class="site-uv">
+            本站访问数<i class="fa fa-user"></i>
+            <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+            人次
+          </span>
+
+          <span class="site-pv">
+            本站总访问数<i class="fa fa-eye"></i>
+            <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+            次
+          </span>
+
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+      window.Promise = null;
+    }
+
+  </script>
+
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+    var onPopupClose = function(e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append(
+          '<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css(
+        'text-align', 'center');
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content", this).text(),
+              url: $("url", this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(
+                  /<[^>]+>/g, "");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if (title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text,
+                      caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0,
+                        position = [],
+                        index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word,
+                          startPosition)) > -1) {
+                        index.push({
+                          position: position,
+                          word: word
+                        });
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+                    indexOfTitle = indexOfTitle.concat(
+                      getIndexByWord(keyword,
+                        titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(
+                      getIndexByWord(keyword,
+                        contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length >
+                    0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length +
+                      indexOfContent.length;
+                  }
+                }
+                // show search results
+                if (isMatch) {
+                  // sort index by position of keyword
+                  [indexOfTitle, indexOfContent].forEach(function(
+                    index) {
+                    index.sort(function(itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft
+                        .position) {
+                        return itemRight.position -
+                          itemLeft.position;
+                      } else {
+                        return itemLeft.word.length -
+                          itemRight.word.length;
+                      }
+                    });
+                  });
+                  // merge hits into slices
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index
+                      .length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({
+                        position: position,
+                        length: word.length
+                      });
+                      var wordEnd = position + word.length;
+                      // move to next position of hit
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0,
+                      title.length, indexOfTitle));
+                  }
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length -
+                      1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if (start < 0) {
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if (end > content.length) {
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content,
+                      start, end, indexOfContent));
+                  }
+                  // sort slices in content by search text's count and hits' count
+                  slicesOfContent.sort(function(sliceLeft,
+                    sliceRight) {
+                    if (sliceLeft.searchTextCount !==
+                      sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount -
+                        sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !==
+                      sliceRight.hits.length) {
+                      return sliceRight.hits.length -
+                        sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+                  // select top N slices in content
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0,
+                      upperBound);
+                  }
+                  // highlight title and content
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function(hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' +
+                        text.substring(hit.position, end) +
+                        '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+                  var resultItem = '';
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl +
+                      "' class='search-result-title'>" +
+                      highlightKeyword(title, slicesOfTitle[0]) +
+                      "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl +
+                      "' class='search-result-title'>" + title +
+                      "</a>";
+                  }
+                  slicesOfContent.forEach(function(slice) {
+                    resultItem += "<a href='" + articleUrl +
+                      "'>" +
+                      "<p class=\"search-result\">" +
+                      highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML =
+                '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML =
+                '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function(resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft
+                    .searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList =
+                '<ul class=\"search-result-list\">';
+              resultItems.forEach(function(result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function(event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+          proceedsearch();
+        }
+      });
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function(event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+<!-- 崩溃欺骗 -->
+<script type=“text / javascript”src=“/ js / src / crash_cheat.js”> </ script>
