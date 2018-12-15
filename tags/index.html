@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="theme-color" content="#222">
 
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-center-atom.min.css?v=1.0.2" rel="stylesheet">
+
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -274,9 +277,9 @@
                     </div>
                     <div class="tag-cloud-tags">
                       <a href="/tags/actively/" style="font-size: 12px; color: #ccc">actively</a>
-                      <a href="/tags/back-end/" style="font-size: 12px; color: #ccc">back_end</a>
-                      <a href="/tags/crawler/" style="font-size: 12px; color: #ccc">crawler</a>
-                      <a href="/tags/front-end/" style="font-size: 12px; color: #ccc">front_end</a>
+                      <a href="/tags/back-end/" style="font-size: 30px; color: #111">back_end</a>
+                      <a href="/tags/crawler/" style="font-size: 30px; color: #111">crawler</a>
+                      <a href="/tags/front-end/" style="font-size: 30px; color: #111">front_end</a>
                     </div>
                   </div>
 
@@ -285,6 +288,14 @@
               </div>
 
             </div>
+
+          </div>
+
+          <div class="comments" id="comments">
+
+            <div onclick="showGitment()" id="gitment-display-button">显示 Gitment
+              评论</div>
+            <div id="gitment-container" style="display:none"></div>
 
           </div>
 
@@ -321,7 +332,7 @@
 
                     <a href="/archives/">
 
-                      <span class="site-state-item-count">4</span>
+                      <span class="site-state-item-count">5</span>
                       <span class="site-state-item-name">日志</span>
                     </a>
                   </div>
@@ -372,7 +383,8 @@
                   <ul class="links-of-blogroll-list">
 
                     <li class="links-of-blogroll-item">
-                      <a href="http://martin.com/" title="Martin" target="_blank">Martin</a>
+                      <a href="https://gzquse.github.com/" title="Martin"
+                                                                                                      target="_blank">Martin</a>
                     </li>
 
                     <li class="links-of-blogroll-item">
@@ -462,6 +474,42 @@
   <script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
 
   <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+  <!-- LOCAL: You can save these files to your site and update links -->
+
+  <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+  <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+
+  <!-- END LOCAL -->
+
+  <style>
+    a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+
+  <script type="text/javascript">
+    function renderGitment() {
+      var gitment = new Gitmint({
+        id: window.location.pathname,
+        owner: 'gzquse# MUST HAVE, Your Github ID',
+        repo: 'regist# MUST HAVE, The repo you use to store Gitment comments',
+        lang: "en" || navigator.language || navigator.systemLanguage ||
+          navigator.userLanguage,
+        oauth: {
+          client_secret: 'fa9fcd164e3cdaf15a405a9b1dae421ce9fd24ae# EITHER this or proxy_gateway, Github access secret token for the Gitment',
+          client_id: '7045dc9e069ad45c128e# MUST HAVE, Github client id for the Gitment'
+        }
+      });
+      gitment.render('gitment-container');
+    }
+
+    function showGitment() {
+      document.getElementById("gitment-display-button").style.display = "none";
+      document.getElementById("gitment-container").style.display = "block";
+      renderGitment();
+    }
+
+  </script>
 
   <script type="text/javascript">
     // Popup Window;
