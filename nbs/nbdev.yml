@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "riversix"
+  site-url: "https://gzquse.github.io/riversix"
+  description: "riversix"
+  repo-branch: main
+  repo-url: "https://github.com/gzquse/riversix"
