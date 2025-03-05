@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://gzquse.github.io',
                 'git_url': 'https://github.com/gzquse/riversix',
                 'lib_path': 'riversix'},
-  'syms': {'riversix.core': {'riversix.core.foo': ('core.html#foo', 'riversix/core.py')}}}
+  'syms': { 'riversix.core': { 'riversix.core.foo': ('core.html#foo', 'riversix/core.py'),
+                               'riversix.core.say_hello': ('core.html#say_hello', 'riversix/core.py')}}}

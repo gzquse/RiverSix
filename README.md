@@ -55,13 +55,3 @@ Documentation can be found hosted on this GitHub
 package manager specific guidelines on
 [conda](https://anaconda.org/gzquse/riversix) and
 [pypi](https://pypi.org/project/riversix/) respectively.
-
-## How to use
-
-Fill me in please! Don’t forget code examples:
-
-``` python
-1+1
-```
-
-    2
