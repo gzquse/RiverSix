@@ -8,14 +8,17 @@ documentation.
 
 ## Developer Guide
 
-If you are new to using `nbdev` here are some useful pointers to get you
-started.
+`nbdev_preview --port 9645 --no_browser`
+
+### start a jupyter notebook for vscode:
+
+`jupyter lab --ip 0.0.0.0 --no-browser --allow-root --port 9800`
 
 ### Install riversix in Development mode
 
 ``` sh
 # make sure riversix package is installed in development mode
-$ pip install -e .
+$ pip install -e .s
 
 # make changes under nbs/ directory
 # ...
@@ -55,3 +58,5 @@ Documentation can be found hosted on this GitHub
 package manager specific guidelines on
 [conda](https://anaconda.org/gzquse/riversix) and
 [pypi](https://pypi.org/project/riversix/) respectively.
+
+
